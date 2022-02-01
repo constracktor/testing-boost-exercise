@@ -23,7 +23,7 @@ BOOST_FIXTURE_TEST_SUITE(OpenDataTests, MatrixIOFixture, *boost::unit_test::tole
 BOOST_AUTO_TEST_CASE(m3)
 {
   MatrixXd A = matrixIO::openData("../data/m3.csv", 3);
-  BOOST_TEST(expectedMatrix.isApprox(A));
+  BOOST_TEST(expectedA.isApprox(A));
 };
 
 BOOST_AUTO_TEST_SUITE_END()
