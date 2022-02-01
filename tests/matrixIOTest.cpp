@@ -15,7 +15,7 @@ struct MatrixIOFixture {
                      -0.211234, 0.823295, 0.536459,
                       0.566198, -0.604897, -0.444451;
   }
-  MatrixXd    expectedA;
+  MatrixXd expectedA;
 };
 
 BOOST_FIXTURE_TEST_SUITE(OpenDataTests, MatrixIOFixture, *boost::unit_test::tolerance(1e-12))
