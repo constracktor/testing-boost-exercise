@@ -1,4 +1,5 @@
 # SIDEMADE - Simple Dense Matrix Decomposition
+![Tests](https://github.com/constracktor/testing-boost-exercise/actions/workflows/main.yml/badge.svg)
 
 A simple demo code to read dense matrices from files and solve linear systems with them.
 
