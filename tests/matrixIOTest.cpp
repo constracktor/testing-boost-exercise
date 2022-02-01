@@ -8,15 +8,15 @@
 using namespace Eigen;
 
 struct MatrixIOFixture {
-  MatrixIOFixture()
-  {
-    expectedA = MatrixXd(3, 3);
-    expectedA << 0.680375, 0.59688, -0.329554,
-                 -0.211234, 0.823295, 0.536459,
-                 0.566198, -0.604897, -0.444451;
-  }
-  MatrixXd expectedA;
-};
+   MatrixIOFixture()
+   {
+     expectedA = MatrixXd(3, 3);
+     expectedA << 0.680375, 0.59688, -0.329554,
+         -0.211234, 0.823295, 0.536459,
+         0.566198, -0.604897, -0.444451;
+   }
+   MatrixXd expectedA;
+ };
 
 BOOST_FIXTURE_TEST_SUITE(OpenDataTests, MatrixIOFixture, *boost::unit_test::tolerance(1e-12))
 
